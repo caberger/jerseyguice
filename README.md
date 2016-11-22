@@ -13,7 +13,7 @@ Jersey uses its own depencency injection framework [HK2](https://hk2.java.net).
 There is a bridge between Jersey and Guice, but it is not easy to elegantly configure REST endpoints that use Guice dependency injection.
 This is where this project comes in. It defines a RestServletModule, that allows you to configure your REST application
 in the same way as all the other parts within it.
-This RestServletModule adds a ```rest()``` and a ```packages()``` function to cconfigure Jersey2. 
+This RestServletModule adds a ```rest()``` and a ```packages()``` function to configure Jersey2. 
 This pays off by giving us a clear and elegant application structure.
 A typical configuration would be:
 ```java
@@ -40,6 +40,5 @@ public class MyServletContextListener extends GuiceServletContextListener {
 
 The solution should work on any application server.
 
-
-For details how to install the development environment and for the design principles behind it see my
+For details and the design principles behind it see my
 [blog](http://www.aberger.at/en/blog/implementation/java/2016/11/12/jersey-guice.html).
