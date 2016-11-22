@@ -15,7 +15,7 @@ in the same way as all the other parts within it.
 This RestServletModule adds a ```rest()``` and a ```packages()``` function to cconfigure Jersey2. 
 This pays off by giving us a clear and elegant application structure.
 A typical configuration would be:
-{% highlight java %}
+```java
 public class MyServletContextListener extends GuiceServletContextListener {
     @Override
     protected Injector getInjector() {
@@ -35,7 +35,7 @@ public class MyServletContextListener extends GuiceServletContextListener {
         });
     }
 }
-{% endhighlight %}
+```
 
 The solution should work on any application server.
 
