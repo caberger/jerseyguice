@@ -1,6 +1,7 @@
-# jerseyguice
-REST Service Example with Jersey2 and Guice Dependency Injection
+# REST with Jersey2 and Guice
 
+Bridge Jersey's HK2 to Guice Dependency Injection Framework
+----------------------------
 
 This project implements a RESTful Webservice using Jersey and Guice.
 
