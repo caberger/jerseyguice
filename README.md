@@ -40,5 +40,9 @@ public class MyServletContextListener extends GuiceServletContextListener {
 
 The solution is made for the google app engine but it should work on any application server.
 
-For details and the design principles behind it see my
-[blog](http://www.aberger.at/en/blog/implementation/java/2016/11/12/jersey-guice.html).
+For details see my
+blog about [RESTful Webservices with Jersey 2 and Guice](http://www.aberger.at/en/blog/implementation/java/2016/11/12/jersey-guice.html).
+For more information about the design principles behind it see my other [blogs](https://caberger.github.io).
+
+The source code for the tutorials can be found in the [tutorials](./tutorials) subfolder.
+
