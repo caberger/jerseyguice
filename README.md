@@ -38,7 +38,7 @@ public class MyServletContextListener extends GuiceServletContextListener {
 }
 ```
 
-The solution should work on any application server.
+The solution is made for the google app engine but it should work on any application server.
 
 For details and the design principles behind it see my
 [blog](http://www.aberger.at/en/blog/implementation/java/2016/11/12/jersey-guice.html).
