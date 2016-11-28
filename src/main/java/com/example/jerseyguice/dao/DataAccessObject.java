@@ -20,7 +20,8 @@ package com.example.jerseyguice.dao;
 import java.util.List;
 
 import com.example.jerseyguice.model.User;
-
+/** A DataAccessObject has the responsibility to do all SQL for us.
+ */
 public interface DataAccessObject<T extends Object> {
     T findById(int id);
     List<T> listAll();
